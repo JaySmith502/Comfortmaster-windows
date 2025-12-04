@@ -303,9 +303,38 @@ export default function Home() {
                 <div className="flex h-8 w-8 items-center justify-center rounded bg-primary text-white font-bold">CM</div>
                 <span className="text-lg font-bold text-white">Comfort Master</span>
               </div>
-              <p className="max-w-sm">
+              <p className="max-w-sm mb-6">
                 Serving Louisville, Kentucky and its surrounding areas with premium manufacturing and installation services.
               </p>
+              <div className="flex gap-4">
+                <a 
+                  href="https://www.bbb.org/us/ky/louisville/profile/windows/comfort-master-home-improvement-systems-0402-2025476" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="h-10 w-10 flex items-center justify-center rounded-full bg-slate-800 hover:bg-primary hover:text-white transition-colors border border-slate-700"
+                  aria-label="BBB Profile"
+                >
+                  <span className="font-bold text-xs">BBB</span>
+                </a>
+                <a 
+                  href="https://www.yelp.com/biz/comfort-masters-louisville" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="h-10 w-10 flex items-center justify-center rounded-full bg-slate-800 hover:bg-primary hover:text-white transition-colors border border-slate-700"
+                  aria-label="Yelp Reviews"
+                >
+                  <span className="font-bold text-xs">Yelp</span>
+                </a>
+                <a 
+                  href="https://www.angi.com/companylist/us/ky/louisville/comfort-master-home-improvement-reviews-291538.htm" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="h-10 w-10 flex items-center justify-center rounded-full bg-slate-800 hover:bg-primary hover:text-white transition-colors border border-slate-700"
+                  aria-label="Angi Reviews"
+                >
+                  <span className="font-bold text-xs">Angi</span>
+                </a>
+              </div>
             </div>
             <div>
               <h4 className="text-white font-bold mb-4">Products</h4>
