@@ -239,71 +239,37 @@ export default function Home() {
           </div>
           
           <div className="container mx-auto px-4 md:px-6 relative z-10">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div>
-                <h2 className="text-3xl md:text-4xl font-bold mb-6">Why Choose Comfort Master?</h2>
-                <div className="space-y-8">
-                  <div className="flex gap-4">
-                    <div className="flex-shrink-0 h-12 w-12 rounded-xl bg-white/10 flex items-center justify-center text-white border border-white/20">
-                      <PenTool className="h-6 w-6" />
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-bold mb-2">Custom Manufacturing</h3>
-                      <p className="text-blue-100 leading-relaxed">
-                        We don't just sell windows; we make them. Our local manufacturing facility ensures strict quality control and cuts out the middleman markup.
-                      </p>
-                    </div>
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Why Choose Comfort Master?</h2>
+              <div className="grid md:grid-cols-3 gap-8">
+                <div className="flex flex-col items-center text-center">
+                  <div className="mb-6 h-16 w-16 rounded-2xl bg-white/10 flex items-center justify-center text-white border border-white/20 shadow-lg">
+                    <PenTool className="h-8 w-8" />
                   </div>
-                  
-                  <div className="flex gap-4">
-                    <div className="flex-shrink-0 h-12 w-12 rounded-xl bg-white/10 flex items-center justify-center text-white border border-white/20">
-                      <Shield className="h-6 w-6" />
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-bold mb-2">Unbeatable Warranty</h3>
-                      <p className="text-blue-100 leading-relaxed">
-                        We stand behind our products with one of the best warranties in the industry. Your investment is protected for years to come.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex gap-4">
-                    <div className="flex-shrink-0 h-12 w-12 rounded-xl bg-white/10 flex items-center justify-center text-white border border-white/20">
-                      <Star className="h-6 w-6" />
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-bold mb-2">Experienced Professionals</h3>
-                      <p className="text-blue-100 leading-relaxed">
-                        Our courteous team of skilled professionals prides themselves on quality workmanship. We treat your home with the respect it deserves.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="relative">
-                <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-8 rounded-2xl">
-                  <h3 className="text-2xl font-bold mb-6">Visit Our Showroom</h3>
-                  <p className="mb-6 text-blue-100">
-                    Customers are invited to visit our showroom and offices to see our quality firsthand and receive estimates on upcoming projects.
+                  <h3 className="text-xl font-bold mb-4">Custom Manufacturing</h3>
+                  <p className="text-blue-100 leading-relaxed">
+                    We don't just sell windows; we make them. Our local manufacturing facility ensures strict quality control and cuts out the middleman markup.
                   </p>
-                  
-                  <div className="space-y-4 mb-8">
-                    <div className="flex items-start gap-3">
-                      <MapPin className="h-5 w-5 mt-1 text-sky-300" />
-                      <p>4410 Shepherdsville Road<br/>Louisville, KY 40218</p>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <Phone className="h-5 w-5 text-sky-300" />
-                      <p>(502) 456-0627</p>
-                    </div>
+                </div>
+                
+                <div className="flex flex-col items-center text-center">
+                  <div className="mb-6 h-16 w-16 rounded-2xl bg-white/10 flex items-center justify-center text-white border border-white/20 shadow-lg">
+                    <Shield className="h-8 w-8" />
                   </div>
-                  
-                  <Button className="w-full h-12 bg-white text-primary hover:bg-gray-100 font-bold text-lg" asChild>
-                     <a href="https://maps.google.com/?q=4410+Shepherdsville+Road+Louisville+KY+40218" target="_blank" rel="noreferrer">
-                       Get Directions
-                     </a>
-                  </Button>
+                  <h3 className="text-xl font-bold mb-4">Unbeatable Warranty</h3>
+                  <p className="text-blue-100 leading-relaxed">
+                    We stand behind our products with one of the best warranties in the industry. Your investment is protected for years to come.
+                  </p>
+                </div>
+
+                <div className="flex flex-col items-center text-center">
+                  <div className="mb-6 h-16 w-16 rounded-2xl bg-white/10 flex items-center justify-center text-white border border-white/20 shadow-lg">
+                    <Star className="h-8 w-8" />
+                  </div>
+                  <h3 className="text-xl font-bold mb-4">Experienced Professionals</h3>
+                  <p className="text-blue-100 leading-relaxed">
+                    Our courteous team of skilled professionals prides themselves on quality workmanship. We treat your home with the respect it deserves.
+                  </p>
                 </div>
               </div>
             </div>
