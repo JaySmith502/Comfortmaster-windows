@@ -39,14 +39,14 @@ export default function Home() {
             <button onClick={() => scrollToSection("products")} className="text-sm font-medium hover:text-primary transition-colors">Products</button>
             <button onClick={() => scrollToSection("why-us")} className="text-sm font-medium hover:text-primary transition-colors">Why Us</button>
             <button onClick={() => scrollToSection("about")} className="text-sm font-medium hover:text-primary transition-colors">About</button>
-            <PhoneButton phoneNumber="(502) 456-0627" variant="default">
+            <PhoneButton phoneNumber="(502) 802-2964" variant="default">
               Call for Estimate
             </PhoneButton>
           </nav>
 
           {/* Mobile Call Button (Icon Only) */}
           <div className="md:hidden">
-            <PhoneButton phoneNumber="(502) 456-0627" size="icon" />
+            <PhoneButton phoneNumber="(502) 802-2964" size="icon" />
           </div>
         </div>
       </header>
@@ -82,8 +82,8 @@ export default function Home() {
                 The only home improvement company in Kentucky that manufactures custom windows locally. Skip the middleman and get premium quality for less.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <PhoneButton phoneNumber="(502) 456-0627" size="lg" className="text-lg px-8 h-14">
-                  (502) 456-0627
+                <PhoneButton phoneNumber="(502) 802-2964" size="lg" className="text-lg px-8 h-14">
+                  (502) 802-2964
                 </PhoneButton>
                 <Button variant="outline" size="lg" className="text-lg px-8 h-14 bg-white/10 backdrop-blur-sm border-white/40 text-white hover:bg-white hover:text-primary transition-colors" onClick={() => scrollToSection("products")}>
                   View Our Products
@@ -237,7 +237,7 @@ export default function Home() {
             <div className="absolute right-[-10%] top-[-10%] h-[600px] w-[600px] rounded-full bg-white blur-3xl" />
             <div className="absolute left-[-10%] bottom-[-10%] h-[600px] w-[600px] rounded-full bg-white blur-3xl" />
           </div>
-          
+
           <div className="container mx-auto px-4 md:px-6 relative z-10">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Why Choose Comfort Master?</h2>
@@ -251,7 +251,7 @@ export default function Home() {
                     We don't just sell windows; we make them. Our local manufacturing facility ensures strict quality control and cuts out the middleman markup.
                   </p>
                 </div>
-                
+
                 <div className="flex flex-col items-center text-center">
                   <div className="mb-6 h-16 w-16 rounded-2xl bg-white/10 flex items-center justify-center text-white border border-white/20 shadow-lg">
                     <Shield className="h-8 w-8" />
@@ -284,8 +284,8 @@ export default function Home() {
               Contact us today for a free estimate. Let us assist you with your project.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <PhoneButton phoneNumber="(502) 456-0627" size="lg" className="h-16 px-10 text-xl shadow-xl shadow-primary/20">
-                Call (502) 456-0627
+              <PhoneButton phoneNumber="(502) 802-2964" size="lg" className="h-16 px-10 text-xl shadow-xl shadow-primary/20">
+                Call (502) 802-2964
               </PhoneButton>
               <PhoneButton phoneNumber="(800) 326-0077" variant="outline" size="lg" className="h-16 px-10 text-xl">
                 Toll Free: (800) 326-0077
@@ -307,27 +307,27 @@ export default function Home() {
                 Serving Louisville, Kentucky and its surrounding areas with premium manufacturing and installation services.
               </p>
               <div className="flex gap-4">
-                <a 
-                  href="https://www.bbb.org/us/ky/louisville/profile/windows/comfort-master-home-improvement-systems-0402-2025476" 
-                  target="_blank" 
+                <a
+                  href="https://www.bbb.org/us/ky/louisville/profile/windows/comfort-master-home-improvement-systems-0402-2025476"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="h-10 w-10 flex items-center justify-center rounded-full bg-slate-800 hover:bg-primary hover:text-white transition-colors border border-slate-700"
                   aria-label="BBB Profile"
                 >
                   <span className="font-bold text-xs">BBB</span>
                 </a>
-                <a 
-                  href="https://www.yelp.com/biz/comfort-masters-louisville" 
-                  target="_blank" 
+                <a
+                  href="https://www.yelp.com/biz/comfort-masters-louisville"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="h-10 w-10 flex items-center justify-center rounded-full bg-slate-800 hover:bg-primary hover:text-white transition-colors border border-slate-700"
                   aria-label="Yelp Reviews"
                 >
                   <span className="font-bold text-xs">Yelp</span>
                 </a>
-                <a 
-                  href="https://www.angi.com/companylist/us/ky/louisville/comfort-master-home-improvement-reviews-291538.htm" 
-                  target="_blank" 
+                <a
+                  href="https://www.angi.com/companylist/us/ky/louisville/comfort-master-home-improvement-reviews-291538.htm"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="h-10 w-10 flex items-center justify-center rounded-full bg-slate-800 hover:bg-primary hover:text-white transition-colors border border-slate-700"
                   aria-label="Angi Reviews"
@@ -351,7 +351,7 @@ export default function Home() {
               <ul className="space-y-2 text-sm">
                 <li>4410 Shepherdsville Road</li>
                 <li>Louisville, KY 40218</li>
-                <li>(502) 456-0627</li>
+                <li>(502) 802-2964</li>
                 <li>(800) 326-0077</li>
               </ul>
             </div>
